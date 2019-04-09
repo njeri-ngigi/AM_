@@ -20,3 +20,4 @@ migrate = Migrate(app, db)
 # TODO: setup database properly to create tables and columns
 
 from app import routes
+from app.models import Customer
